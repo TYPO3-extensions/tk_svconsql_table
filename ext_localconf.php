@@ -20,6 +20,7 @@ if ($t3version < 4006000) {
 	if (!is_array($TYPO3_CONF_VARS['SYS']['caching']['cacheConfigurations'][$_EXTKEY])) {
 	   
 		$TYPO3_CONF_VARS['SYS']['caching']['cacheConfigurations'][$_EXTKEY] = array(
+			'frontend' => 't3lib_cache_frontend_StringFrontend',
 			'backend' => 't3lib_cache_backend_DbBackend',
 			'options' => array(
 				'cacheTable' => 'tx_tksvconsqltable_cache',
