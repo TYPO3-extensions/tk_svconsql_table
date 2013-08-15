@@ -14,11 +14,11 @@ if (class_exists('\TYPO3\CMS\Core\Utility\VersionNumberUtility')) {
 		$t3version = t3lib_div::int_from_ver(TYPO3_version);
 	}
 }
-	
+
 // caching framework configuration
 if ($t3version < 4006000) {
 	if (!is_array($TYPO3_CONF_VARS['SYS']['caching']['cacheConfigurations'][$_EXTKEY])) {
-	   
+
 		$TYPO3_CONF_VARS['SYS']['caching']['cacheConfigurations'][$_EXTKEY] = array(
 			'frontend' => 't3lib_cache_frontend_StringFrontend',
 			'backend' => 't3lib_cache_backend_DbBackend',
@@ -35,6 +35,6 @@ if ($t3version < 4006000) {
 			'backend' => 't3lib_cache_backend_DbBackend',
 			'options' => array()
 		);
-	} 
+	}
 }
 ?>
