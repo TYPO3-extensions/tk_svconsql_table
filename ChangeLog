@@ -1,3 +1,11 @@
+2013-08-05 Tomasz Krawczyk  <tomasz@typo3.pl>
+
+	* Fixed bug causing TYPO3 crash while using Caching Framework under TYPO3 version 4.5.
+
+2013-07-19 Tomasz Krawczyk  <tomasz@typo3.pl>
+
+	* added TYPO3 v.6.1 compatibility.
+	
 2013-04-14 Tomasz Krawczyk  <tomasz@typo3.pl>
 
 	* added TYPO3 v.6 compatibility
