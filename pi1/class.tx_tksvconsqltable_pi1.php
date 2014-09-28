@@ -2,7 +2,7 @@
 /***************************************************************
 *  Copyright notice
 *
-*  (c) 2011-2013 Tomasz Krawczyk <tomasz@typo3.pl>
+*  (c) 2011-2014 Tomasz Krawczyk <tomasz@typo3.pl>
 *  All rights reserved
 *
 *  This script is part of the TYPO3 project. The TYPO3 project is
@@ -21,7 +21,6 @@
 *
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
-require_once(PATH_tslib . 'class.tslib_pibase.php');
 /**
  * Plugin 'Table for Connector SQL' for the 'tk_svconsql_table' extension.
  *

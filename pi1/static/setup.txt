@@ -44,11 +44,13 @@ plugin.tx_tksvconsqltable_pi1 {
 	stdWrap.wrap = <div class="myTable">|</div>
 	
 	_CSS_DEFAULT_STYLE (
-		.tx-tksvconsqltable-pi1 {
+
+	.tx-tksvconsqltable-pi1 {
 			font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 			font-size: 15px;
 			background-color: #fff;
 			padding: 10px;
+			color: #000;
 		}
 		
 		.tx-tksvconsqltable-pi1 div.errorMsg {
@@ -61,11 +63,9 @@ plugin.tx_tksvconsqltable_pi1 {
 			border: 0px;
 			padding: 2px
 		}
-
 		.tx-tksvconsqltable-pi1 table tr.even {
 			background-color: #E6E6FA;
 		}
-
 		.tx-tksvconsqltable-pi1 table tr.odd {
 			background-color: #FFE4E1;
 		}
